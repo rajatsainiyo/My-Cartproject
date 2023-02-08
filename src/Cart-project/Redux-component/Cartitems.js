@@ -58,8 +58,8 @@ const Cart_item = createSlice({
 
         subtotal:(state,action)=>{
 
-let newur =  state.cartarry.reduce((acc,item)=> acc+item.quantity*item.price,0)
-console.log(newur,'data');
+ let newur =  state.cartarry.reduce((acc,item)=> acc+item.quantity*item.price,0)
+  console.log(newur,'data');
 
         //   let {totalitem,totalamount}= state.cartarry.reduce((accum,curval)=>{
 
